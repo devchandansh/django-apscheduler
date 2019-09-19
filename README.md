@@ -23,7 +23,8 @@ scheduler = BackgroundScheduler()
 
 
 * Your written functions
-Here, the scheduler functions are written in 
+Here, the scheduler functions are written in `scheduler_jobs`
+
 ```
 import scheduler_jobs 
 
