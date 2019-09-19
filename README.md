@@ -11,7 +11,6 @@ pip install apscheduler
 
 
 
-
 ## Configuring the scheduler
 make execute.py file and add the below codes
 
@@ -24,11 +23,11 @@ scheduler = BackgroundScheduler()
 
 
 * Your written functions
-
+Here, the scheduler functions are written in 
 ```
-from schedulejobs import views 
+import scheduler_jobs 
 
-scheduler.add_job(views.FirstCronTest, 'interval', seconds=10)
+scheduler.add_job(scheduler_jobs.FirstCronTest, 'interval', seconds=10)
 scheduler.start()
 
 ```
@@ -43,6 +42,9 @@ from example_apsschedulers import execute
 ```
 
 
+## Example:
+Example project is added. here APScheduler is working. 
+Checked both on windows & Ubuntu.
 
 
 ## References:
