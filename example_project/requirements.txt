@@ -1,5 +1,5 @@
 APScheduler==3.6.1
-Django==2.2.5
+Django==2.2.21
 pytz==2019.2
 six==1.12.0
 sqlparse==0.3.0
